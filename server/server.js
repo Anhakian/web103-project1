@@ -1,4 +1,5 @@
 import express from 'express';
+import dotenv from 'dotenv'
 import songsRouter from './routes/songs.js'
 
 const app = express();
